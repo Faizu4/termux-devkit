@@ -17,12 +17,13 @@ zstyle ':vcs_info:*' enable false   # Disable heavy Git info checks
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
+alias la='eza -l -a --icons --no-permissions --no-user --no-time --group-directories-first'
 alias ls='eza -1 --icons --group-directories-first'
+
 alias ubuntu='proot-distro login ubuntu'
 alias bat='bat -P --style=header,grid'
 alias py='python'
-alias zi='zoxide query -l | fzf --height 40% --reverse --preview '
-ls -la {}' | xargs -r z'
+alias zi='zoxide query -l | fzf --height 40% --reverse --preview 'ls -la {}' | xargs -r z'
 
 setopt HIST_IGNORE_ALL_DUPS SHARE_HISTORY #same zsh history in multiple terminal 
 setopt CORRECT #For correction of mistyped command
