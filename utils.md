@@ -16,6 +16,7 @@
 `tmux`
 `ripgrep`
 `xfce4 tigervnc-standalone-server dbus-x11 xfce4-terminal`
+`yazi`
 `gh` #github cli
 
 # To Reload things
