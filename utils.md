@@ -12,6 +12,7 @@
 `eza`
 `fzf`
 `zoxide`
+`httpx` #Alternative for requests
 `httpie` # Alternative for curl
 `tmux`
 `ripgrep`
@@ -19,13 +20,13 @@
 `yazi`
 `gh` #github cli
 
-# To Reload things
+## To Reload things
 
 `termux-reload-settings` # For termux configs
 `source ~/.zshrc` # For zsh configs
 `source ~/.bashrc` # For bash configs
 
-# To make <shell> permanent
+## To make <shell> permanent
 
 `chsh -s $(which zsh)` # To make zsh permanent
 
